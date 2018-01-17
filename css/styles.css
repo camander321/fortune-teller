@@ -1,9 +1,26 @@
+
+body {
+  background-image: url("../img/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
 #lucky,
 #unlucky,
 #whatever {
   display:none;
+  margin-top: 20px;
 }
 
 label {
   font-weight: normal;
+}
+
+.well {
+  background-color: #0000ff44;
+}
+
+img {
+  border-radius: 20px;
 }

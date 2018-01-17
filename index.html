@@ -12,7 +12,7 @@
     <div class="container">
       <h1>How lucky are you?</h1>
       <form id="fortune">
-        <div class="form-group">
+        <div class="form-group well">
           <p>Which of the following are real? Check all that apply.</p>
           <label><input type="checkbox" name="real" value="lucky"> Santa</label><br>
           <label><input type="checkbox" name="real" value="unlucky"> Leprechaun</label></br>
@@ -20,14 +20,14 @@
           <label><input type="checkbox" name="real" value="lucky"> Dog</label></br>
           <label><input type="checkbox" name="real" value="lucky"> Narwhal</label></br>
         </div>
-        <div class="form-group">
+        <div class="form-group well">
           <p>What interactions have you had with black cats in the past month?</p>
           <label><input type="checkbox" name="cat" value="lucky"> Pet a cat</label><br>
           <label><input type="checkbox" name="cat" value="unlucky"> Tripped on a cat</label><br>
           <label><input type="checkbox" name="cat" value="unlucky"> Engaged in battle with a cat</label><br>
           <label><input type="checkbox" name="cat" value="lucky"> Gave a cat a treat</label><br>
         </div>
-        <div class="form-group">
+        <div class="form-group well">
           <p>Which of the following have you found on the ground in the last week?</p>
           <label><input type="checkbox" name="found" value="lucky"> Penny</label><br>
           <label><input type="checkbox" name="found" value="lucky"> 4-leaf clover</label><br>
@@ -35,17 +35,38 @@
           <label><input type="checkbox" name="found" value="unlucky"> Upside-down penny</label><br>
           <label><input type="checkbox" name="found" value="unlucky"> Angry black cat</label><br>
         </div>
+        <div class="form-group well">
+          <p>What are some numbers you like?</p>
+          <label><input type="checkbox" name="number" value="unlucky"> 13</label><br>
+          <label><input type="checkbox" name="number" value="unlucky"> 4</label><br>
+          <label><input type="checkbox" name="number" value="unlucky"> 17</label><br>
+          <label><input type="checkbox" name="number" value="lucky"> 7</label><br>
+          <label><input type="checkbox" name="number" value="lucky"> 32</label><br>
+        </div>
+        <div class="form-group well">
+          <p>Have you seen any of these things around in the last month?</p>
+          <label><input type="checkbox" name="thing" value="unlucky"> Greek Orthodox priest in the street</label><br>
+          <label><input type="checkbox" name="thing" value="unlucky"> Ravens, crows, or magpies</label><br>
+          <label><input type="checkbox" name="thing" value="unlucky"> Coyotes heading north</label><br>
+          <label><input type="checkbox" name="thing" value="lucky"> An albatross</label><br>
+          <label><input type="checkbox" name="thing" value="lucky"> Fish</label><br>
+        </div>
+
+
         <button type="submit" class="btn btn-danger">Find out if you're lucky!</button>
       </form>
-      <div id="lucky" class="result">
+      <div id="lucky" class="result well">
         <h2>You are lucky</h2>
+        <img src="img/lucky.png">
       </div>
-      <div id="unlucky" class="result">
+      <div id="unlucky" class="result well">
         <h2>You are unlucky</h2>
+        <img src="img/unlucky.jpg">
 
       </div>
-      <div id="whatever" class="result">
+      <div id="whatever" class="result well">
         <h2>You're ok</h2>
+        <img src="img/shrug.jpg">
 
       </div>
     </div>
