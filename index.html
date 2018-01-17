@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <meta charset="utf-8">
+    <title>Fortune Teller</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>How lucky are you?</h1>
+      <form id="fortune">
+        <div class="form-group">
+          <p>Which of the following are real? Check all that apply.</p>
+          <label><input type="checkbox" name="real" value="lucky"> Santa</label><br>
+          <label><input type="checkbox" name="real" value="unlucky"> Leprechaun</label></br>
+          <label><input type="checkbox" name="real" value="unlucky"> Tooth Fairy</label></br>
+          <label><input type="checkbox" name="real" value="lucky"> Dog</label></br>
+          <label><input type="checkbox" name="real" value="lucky"> Narwhal</label></br>
+        </div>
+        <div class="form-group">
+          <p>What interactions have you had with black cats in the past month?</p>
+          <label><input type="checkbox" name="cat" value="lucky"> Pet a cat</label><br>
+          <label><input type="checkbox" name="cat" value="unlucky"> Tripped on a cat</label><br>
+          <label><input type="checkbox" name="cat" value="unlucky"> Engaged in battle with a cat</label><br>
+          <label><input type="checkbox" name="cat" value="lucky"> Gave a cat a treat</label><br>
+        </div>
+        <div class="form-group">
+          <p>Which of the following have you found on the ground in the last week?</p>
+          <label><input type="checkbox" name="found" value="lucky"> Penny</label><br>
+          <label><input type="checkbox" name="found" value="lucky"> 4-leaf clover</label><br>
+          <label><input type="checkbox" name="found" value="unlucky"> Moldy sandwich</label><br>
+          <label><input type="checkbox" name="found" value="unlucky"> Upside-down penny</label><br>
+          <label><input type="checkbox" name="found" value="unlucky"> Angry black cat</label><br>
+        </div>
+        <button type="submit" class="btn btn-danger">Find out if you're lucky!</button>
+      </form>
+      <div id="lucky">
+      </div>
+      <div id="unlucky">
+
+      </div>
+      <div id="whatever">
+
+      </div>
+    </div>
+  </body>
+</html>
