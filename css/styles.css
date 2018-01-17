@@ -3,3 +3,7 @@
 #whatever {
   display:none;
 }
+
+label {
+  font-weight: normal;
+}
