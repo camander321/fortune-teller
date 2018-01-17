@@ -22,6 +22,14 @@ $(document).ready(function() {
       $("#whatever").show();
     }
 
+    $("#fortune").hide();
+    $("#return").show();
+  });
+
+  $("#clickable").click(function() {
+    $("#fortune").show();
+    $("#return").hide();
+    $(".result").hide();
   });
 
 });

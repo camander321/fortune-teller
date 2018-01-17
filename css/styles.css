@@ -8,7 +8,8 @@ body {
 
 #lucky,
 #unlucky,
-#whatever {
+#whatever,
+#return {
   display:none;
   margin-top: 20px;
 }
@@ -23,4 +24,18 @@ label {
 
 img {
   border-radius: 20px;
+}
+
+#return {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+#clickable:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#clickable {
+  font-weight: bold;
 }
